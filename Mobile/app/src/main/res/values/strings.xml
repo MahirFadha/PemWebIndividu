@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Twitter Kw</string>
+    <string name="nama_mahir">Wishpond</string>
+    <string name="icon_back">Back</string>
+    <string name="icon_search">Search</string>
+    <string name="icon_menu">Menu</string>
+    <string name="bg_profil">Background</string>
+    <string name="profil">Profil</string>
+    <string name="username">"@Wishpond"</string>
+    <string name="usernamemini">"@Wishpond • 1d"</string>
+    <string name="bio">"Built to grow your business. 🐼 DM for support!"</string>
+    <string name="pekerjaan">"Advertising and Marketing agency"</string>
+    <string name="post1">"This is Fates Forever, a MOBA developed by @jasoncitron &amp; @svishnevskiy that would lay the foundation for @discord "</string>
+    <string name="post2">"So how did they go from multiplayer games to a chat app that was meant for gamers but has revolutionized how people communicate online?"</string>
+    <string name="post3">"👀 this 🧵 #startupsuccess"</string>
+    <string name="editProfil">"Edit Profil"</string>
+
+</resources>
