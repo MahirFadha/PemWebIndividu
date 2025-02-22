@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF" /> <!-- Warna latar belakang -->
+    <corners android:radius="30dp" /> <!-- Radius lebih kecil untuk oval kecil -->
+    <size
+        android:width="120dp"
+        android:height="40dp" /> <!-- Ukuran kecil dan panjang -->
+    <padding
+        android:left="8dp"
+        android:top="4dp"
+        android:right="8dp"
+        android:bottom="4dp" />
+</shape>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Twitter Kw</string>
+    <string name="nama_mahir">Mahir Fadha</string>
+    <string name="icon_back">Back</string>
+    <string name="icon_search">Search</string>
+    <string name="icon_menu">Menu</string>
+    <string name="bg_profil">Background</string>
+    <string name="profil">Profil</string>
+    <string name="username">"@Mahirfadha"</string>
+    <string name="usernamemini">"@Mahirfadha • 1h"</string>
+    <string name="bio">"Hanya manusia biasa"</string>
+    <string name="pekerjaan">"Mahasiswa Sistem Informasi UINSA"</string>
+    <string name="alamat">"Babat, Lamongan"</string>
+    <string name="post1">"Pagi ini gw lagi buru-buru ke kampus, tapi pas di jalan tiba-tua nemu kucing lucu banget. Gw berhenti buat selfie sama si meong, eh tau-taunya dia ngomong! Katanya, "Bro, jangan lupa ngerjain tugas Sistem Basis Data, deadline jam 12 nih!" Langsung gw kaget, terus gw tanya, "Lo siapa? Kok tau tugas gw?" Si kucing cuma ketawa terus bilang, "Gw dosen lo yang berubah jadi kucing gegara kena kutukan sama mahasiswa yang kelewat stres.""</string>
+    <string name="post2">"Gw langsung lari ke kampus, sampe sana ternyata beneran ada tugas yang belum dikerjain. Pas gw buka laptop, eh si kucing udah ada di meja, bilang, "Udah, gw bantuin lo kerjain, tapi bayarnya satu ikan asin aja ya!""</string>
+    <string name="post3">"👀 this 🧵 #startupsuccess"</string>
+    <string name="editProfil">"Edit Profil"</string>
+
+</resources>
