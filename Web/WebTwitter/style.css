@@ -245,3 +245,155 @@ body {
 .mightlike {
     color: white;
 }
+
+.widget {
+    margin-left: 30px;
+    width: 350px;
+}
+
+.search {
+    margin-top: 6px;
+}
+
+.material-symbols-outlined.search-icon {
+    position: absolute;
+    right: 422px;
+    top: 16px;
+    font-size: 18px;
+    color: gray;
+    pointer-events: none;
+}
+
+.search input {
+    border: none;
+    padding: 10px 10px 10px 34px;
+    font-size: 14px;
+    background-color: black;
+    border-radius: 50px;
+    outline: 0.1px solid rgb(74, 74, 74);
+    height: 40px;
+    width: 100%;
+}
+
+.mightlike {
+    margin-top: 20px;
+    border: solid rgb(73, 73, 73) 0.1px;
+    border-radius: 18px;
+    padding: 10px;
+}
+
+.mightlike h3 {
+    margin-left: 8px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.profil1 img {
+    margin-left: 5px;
+    margin-top: 20px;
+    height: 42px;
+    width: 42px;
+    border-radius: 50px;
+}
+
+.profil1 h5 {
+    position: absolute;
+    right: 334px;
+    top: 130px;
+    font-weight: bolder;
+}
+
+.profil1 p {
+    position: absolute;
+    right: 274px;
+    top: 148px;
+    font-weight: lighter;
+    color: gray;
+}
+
+.profil1 button {
+    position: absolute;
+    right: 116px;
+    top: 130px;
+    border-radius: 50px;
+    width: 84px;
+    height: 36px;
+    font-weight: bold;
+    border: 1px solid transparent;
+}
+
+.profil2 img {
+    margin-left: 5px;
+    margin-top: 20px;
+    height: 42px;
+    width: 42px;
+    border-radius: 50px;
+}
+
+.profil2 h5 {
+    position: absolute;
+    right: 310px;
+    top: 198px;
+    font-weight: bolder;
+}
+
+.profil2 p {
+    position: absolute;
+    right: 324px;
+    top: 216px;
+    font-weight: lighter;
+    color: gray;
+}
+
+.profil2 button {
+    position: absolute;
+    right: 116px;
+    top: 196px;
+    border-radius: 50px;
+    width: 84px;
+    height: 36px;
+    font-weight: bold;
+    border: 1px solid transparent;
+}
+
+.profil3 img {
+    margin-left: 5px;
+    margin-top: 20px;
+    height: 42px;
+    width: 42px;
+    border-radius: 50px;
+}
+
+.profil3 h5 {
+    position: absolute;
+    right: 294px;
+    top: 264px;
+    font-weight: bolder;
+}
+
+.profil3 p {
+    position: absolute;
+    right: 314px;
+    top: 282px;
+    font-weight: lighter;
+    color: gray;
+}
+
+.profil3 button {
+    position: absolute;
+    right: 116px;
+    top: 260px;
+    border-radius: 50px;
+    width: 84px;
+    height: 36px;
+    font-weight: bold;
+    border: 1px solid transparent;
+}
+
+.showmore {
+    margin-left: 8px;
+    margin-top: 28px;
+    font-weight: lighter;
+    padding-bottom: 10px;
+    color: rgb(0, 149, 255);
+}
