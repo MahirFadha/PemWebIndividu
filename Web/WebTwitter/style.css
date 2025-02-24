@@ -6,25 +6,43 @@
 
 body {
     display: flex;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     height: 100vh;
     max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
     padding: 0 10px;
+    font-family: Arial, sans-serif;
+
 }
 
-.fab fa-x-twitter {
-    margin-left: 100px;
+.iconx {
+    margin-left: 98px;
+    display: inline-flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.iconx:hover {
+    background-color: rgb(43, 43, 43);
 }
 
 .sidebar {
-    margin-top: 14px;
+    user-select: none;
+    margin-top: 6px;
+    flex-direction: column;
+    align-items: center;
+    border-right: 0.5px solid rgb(51, 51, 51);
 }
 
 .sidebarOption {
     margin-left: 100px;
-    margin-top: 8px;
+    margin-top: 6px;
+    margin-right: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,10 +50,93 @@ body {
     height: 45px;
     width: 45px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .sidebarOption:hover {
     background-color: rgb(43, 43, 43);
-    border-radius: 30px;
-    background-position: center;
+}
+
+.profil {
+    width: 40px;
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.profil img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profil:hover img {
+    opacity: 0.7;
+    background-color: rgb(43, 43, 43);
+}
+
+.profilutama {
+    position: relative;
+    border-right: 0.5px solid rgb(51, 51, 51);
+    width: 600px;
+}
+
+.profilheader {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: 20px;
+    margin-top: 6px;
+    margin-bottom: 5px;
+}
+
+.namaprofilheader {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.4;
+}
+
+.nama {
+    font-size: 20px;
+}
+
+.postcount {
+    font-size: 14px;
+}
+
+.background img {
+    position: relative;
+    width: 600px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.profilinfo img {
+    height: 140px;
+    width: 140px;
+    border-radius: 70px;
+    border: 5px solid black;
+    position: absolute;
+    margin-left: 20px;
+    top: 180px;
+}
+
+.btn_edit {
+    color: white;
+    height: 35px;
+    font-weight: bold;
+    width: 110px;
+    margin-top: 10px;
+    position: absolute;
+    right: 18px;
+    background-color: black;
+    border: 0.2px solid white;
+    border-radius: 50px;
 }
