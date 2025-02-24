@@ -133,10 +133,111 @@ body {
     height: 35px;
     font-weight: bold;
     width: 110px;
-    margin-top: 10px;
     position: absolute;
+    top: 272px;
     right: 18px;
     background-color: black;
+    border: 0.2px solid white;
+    border-radius: 50px;
+}
+
+.profilinfo h3 {
+    color: white;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.profilinfo p {
+    color: rgb(104, 104, 104);
+    margin-left: 18px;
+    margin-top: 5px;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.fas.fa-calendar-alt {
+    margin-top: 8px;
+    margin-left: 2px;
+    margin-bottom: 12px;
+}
+
+.profilinfo p strong {
+    color: white;
+    margin-top: 50px;
+}
+
+.pilihanprofil {
+    color: gray;
+    margin-top: 18px;
+    margin-left: 4px;
+    border-bottom: 0.2px solid rgb(69, 69, 69);
+    padding-bottom: 1px;
+}
+
+.aktif {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    /* Untuk pseudo-element */
+}
+
+.aktif::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 4px;
+    background-color: rgb(0, 149, 255);
+    border-radius: 2px;
+}
+
+.pilihanprofil span {
+    padding: 22px;
+}
+
+.rekomendasifollower h4 {
+    color: white;
+    font-size: 20px;
+    padding: 14px;
+    margin-left: 4px;
+}
+
+.saran img {
+    margin-left: 18px;
+    margin-top: 8px;
+    height: 42px;
+    width: 42px;
+    border-radius: 100px;
+}
+
+.rekomendasifollower h5 {
+    color: white;
+    position: absolute;
+    left: 72px;
+    bottom: 22px;
+    font-size: 16px;
+}
+
+.rekomendasifollower p {
+    color: gray;
+    position: absolute;
+    left: 72px;
+    bottom: -2px;
+}
+
+.rekomendasifollower button {
+    color: rgb(0, 0, 0);
+    height: 30px;
+    font-weight: bold;
+    width: 76px;
+    bottom: 8px;
+    right: 18px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
     border: 0.2px solid white;
     border-radius: 50px;
 }
