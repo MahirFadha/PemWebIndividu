@@ -397,3 +397,63 @@ body {
     padding-bottom: 10px;
     color: rgb(0, 149, 255);
 }
+
+.whathappening {
+    border: solid rgb(73, 73, 73) 0.1px;
+    border-radius: 18px;
+    margin-top: 18px;
+    padding: 10px;
+}
+
+.whathappening h3 {
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.whathappening p {
+    color: rgb(95, 95, 95);
+    font-size: 14px;
+    margin-left: 6px;
+}
+
+.whathappening h6 {
+    color: white;
+    font-size: 15px;
+    margin-left: 2px;
+    padding: 5px;
+}
+
+.pertama .material-symbols-outlined-more {
+    color: rgb(95, 95, 95);
+    position: absolute;
+    right: 110px;
+    bottom: 160px;
+    font-size: 20px;
+}
+
+.kedua {
+    margin-top: 20px;
+}
+
+.kedua .material-symbols-outlined-more {
+    color: rgb(95, 95, 95);
+    position: absolute;
+    right: 110px;
+    bottom: 80px;
+    font-size: 20px;
+}
+
+.ketiga {
+    margin-top: 20px;
+}
+
+.ketiga .material-symbols-outlined-more {
+    color: rgb(95, 95, 95);
+    position: absolute;
+    right: 110px;
+    bottom: 0px;
+    font-size: 20px;
+}
