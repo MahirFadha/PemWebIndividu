@@ -242,10 +242,6 @@ body {
     border-radius: 50px;
 }
 
-.mightlike {
-    color: white;
-}
-
 .widget {
     margin-left: 30px;
     width: 350px;
@@ -280,114 +276,46 @@ body {
     border: solid rgb(73, 73, 73) 0.1px;
     border-radius: 18px;
     padding: 10px;
+    color: white;
 }
 
 .mightlike h3 {
     margin-left: 8px;
     font-weight: bold;
     font-size: 20px;
+    margin-bottom: 20px;
 }
 
-.profil1 img {
-    margin-left: 5px;
-    margin-top: 20px;
+.profil-saran {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.profil-saran img {
     height: 42px;
     width: 42px;
     border-radius: 50px;
 }
 
-.profil1 h5 {
-    position: absolute;
-    right: 334px;
-    top: 130px;
-    font-weight: bolder;
+.profilmight {
+    margin-left: 7px;
+    margin-right: auto;
+    line-height: 20px;
 }
 
-.profil1 p {
-    position: absolute;
-    right: 274px;
-    top: 148px;
-    font-weight: lighter;
-    color: gray;
+.profilmight p {
+    font-weight: thin;
+    color: rgb(103, 103, 103);
 }
 
-.profil1 button {
-    position: absolute;
-    right: 116px;
-    top: 130px;
-    border-radius: 50px;
+.profil-saran button {
+    border-radius: 20px;
     width: 84px;
     height: 36px;
     font-weight: bold;
-    border: 1px solid transparent;
-}
-
-.profil2 img {
-    margin-left: 5px;
-    margin-top: 20px;
-    height: 42px;
-    width: 42px;
-    border-radius: 50px;
-}
-
-.profil2 h5 {
-    position: absolute;
-    right: 310px;
-    top: 198px;
-    font-weight: bolder;
-}
-
-.profil2 p {
-    position: absolute;
-    right: 324px;
-    top: 216px;
-    font-weight: lighter;
-    color: gray;
-}
-
-.profil2 button {
-    position: absolute;
-    right: 116px;
-    top: 196px;
-    border-radius: 50px;
-    width: 84px;
-    height: 36px;
-    font-weight: bold;
-    border: 1px solid transparent;
-}
-
-.profil3 img {
-    margin-left: 5px;
-    margin-top: 20px;
-    height: 42px;
-    width: 42px;
-    border-radius: 50px;
-}
-
-.profil3 h5 {
-    position: absolute;
-    right: 294px;
-    top: 264px;
-    font-weight: bolder;
-}
-
-.profil3 p {
-    position: absolute;
-    right: 314px;
-    top: 282px;
-    font-weight: lighter;
-    color: gray;
-}
-
-.profil3 button {
-    position: absolute;
-    right: 116px;
-    top: 260px;
-    border-radius: 50px;
-    width: 84px;
-    height: 36px;
-    font-weight: bold;
-    border: 1px solid transparent;
+    border: transparent;
 }
 
 .showmore {
